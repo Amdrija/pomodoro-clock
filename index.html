@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pomodoro Clock</title>
+    <link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Play&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1ccbca7147.js"></script>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="container-length">
+            <div id="session-time-container">
+                <div class="label">Session</div>
+                <div id="session-plus" class="button"><i class="fas fa-angle-up"></i></div>
+                <div id="session-length" class="time-text">25</div>
+                <div id="session-minus" class="button"><i class="fas fa-angle-down"></i></div>
+            </div>
+
+            <div id="break-time-container">
+                <div class="label">Break</div>
+                <div id="break-plus" class="button"><i class="fas fa-angle-up"></i></div>
+                <div id="break-length" class="time-text">5</div>
+                <div id="break-minus" class="button"><i class="fas fa-angle-down"></i></div>
+            </div>
+        </div>
+        <div id="container-clock">
+            <div id="start" class="button"><i class="fas fa-play"></i></div>
+            <div id="reset" class="button"><i class="fas fa-redo-alt"></i></div>
+            <div id="time">25:00</div>
+            <div id="pause" class="button"><i class="fas fa-pause"></i></div>
+            <div id="stop" class="button"><i class="fas fa-stop"></i></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
